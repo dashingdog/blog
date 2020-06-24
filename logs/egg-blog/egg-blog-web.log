@@ -1,0 +1,30 @@
+2020-06-24 20:36:14,166 ERROR 17940 [-/127.0.0.1/-/6ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\code\egg-blog\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (E:\code\egg-blog\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\code\egg-blog\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (E:\code\egg-blog\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (E:\code\egg-blog\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (E:\code\egg-blog\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\code\egg-blog\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\code\egg-blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\code\egg-blog\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\code\egg-blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 17940
+hostname: v_zfahu-PC0
+
+2020-06-24 20:37:39,665 ERROR 3240 [-/127.0.0.1/-/6ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (E:\code\egg-blog\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (E:\code\egg-blog\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (E:\code\egg-blog\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (E:\code\egg-blog\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (E:\code\egg-blog\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (E:\code\egg-blog\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at E:\code\egg-blog\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (E:\code\egg-blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (E:\code\egg-blog\node_modules\koa-session\index.js:41:13)
+    at dispatch (E:\code\egg-blog\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 3240
+hostname: v_zfahu-PC0
+

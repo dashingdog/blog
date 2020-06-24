@@ -4,8 +4,16 @@
   "description": "**导读**",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "egg-bin dev"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.26.1",
+    "egg-mongoose": "^3.2.0",
+    "egg-view-vue": "^1.0.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.14.1"
+  }
 }
